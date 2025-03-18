@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Resume - Pranali Lokhande</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ms. Pranali Prakash Lokhande</h1>
+        <p class="designation">Assistant Professor | Ph.D. (Pursuing)</p>
+
+        <div class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'overview')">Profile Overview</button>
+            <button class="tab-link" onclick="openTab(event, 'education')">Education</button>
+            <button class="tab-link" onclick="openTab(event, 'experience')">Experience</button>
+            <button class="tab-link" onclick="openTab(event, 'publications')">Research & Publications</button>
+            <button class="tab-link" onclick="openTab(event, 'awards')">Awards & Achievements</button>
+        </div>
+
+        <div class="tab-content" id="overview">
+            <h2>Profile Overview</h2>
+            <p>Assistant Professor in Computer Engineering at MIT Academy of Engineering, Pune since 2013. Research interests include Image Processing, AI, and System Programming.</p>
+            <p>Email: pplokhande@mitaoe.ac.in</p>
+        </div>
+
+        <div class="tab-content" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><b>Ph.D. (Computer Science & Engineering)</b> - G. H. Raisoni Amravati University (Pursuing)</li>
+                <li><b>M.E. (Computer Science & Engineering)</b> - Sipna’s College of Engg. & Tech., Amravati (2012)</li>
+                <li><b>B.E. (Computer Science & Engineering)</b> - Sipna’s College of Engg. & Tech., Amravati (2003)</li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Assistant Professor at MIT Academy of Engineering, Pune (2013-Present)</li>
+                <li>Lecturer at Govt. College of Engg., Amravati (2004-2009)</li>
+                <li>Lecturer at JSPM’s Bhivrabai Sawant Polytechnic, Pune (2009-2010)</li>
+                <li>Lecturer at D. Y. Patil College of Engg., Pune (2012-2013)</li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="publications">
+            <h2>Research & Publications</h2>
+            <p>Published research papers in international journals and conferences on AI, Deep Learning, and Image Processing.</p>
+            <ul>
+                <li>“Video Streaming over SDN with Server Load Balancing” - RJETM, 2019</li>
+                <li>“Robotic Algorithm Development” - IJCSIT, 2017</li>
+                <li>“Heart Disease Detection Using IoT-Based ECG Sensor” - Taylor & Francis, 2025</li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="awards">
+            <h2>Awards & Achievements</h2>
+            <ul>
+                <li>Best Case Study Presentation Award (Faculty Conclave 2024)</li>
+                <li>Distinction in IUCEE Course "Research Methods" (2021)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
